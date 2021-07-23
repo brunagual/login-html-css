@@ -38,12 +38,14 @@ body {
   height: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+/* Second Page */
+  left: 60%;
 }
 
-/* First Page - Creat Account */
 /* BLUE BOX */
 .first-content {
   display: flex;
+  display: none;
 }
 
 .first-column {
@@ -59,7 +61,7 @@ body {
   text-transform: capitalize;
   }
   
-  .title-welcome {
+  .title-primary {
   color: #fff;
   }
   
@@ -172,12 +174,29 @@ body {
 .btn-second:hover {
   background-image: linear-gradient(to bottom, #66CDAA, #58af9b 120%);
   border: none;
-  color: #fff;
-
+color: #fff;
 }
 
 /* Second Page - Login */
 .second-content {
   position: absolute;
-  display: none;
+  display: flex;
+}
+
+.second-content .first-column {
+  order: 2;
+}
+
+.second-content .second-column {
+  order: 1;
+}
+
+.password {
+  color: #7f8c8d;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.password::first-letter {
+  text-transform: capitalize;
 }
