@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open-Sans', 'sans-serif';
+}
+
+.container {
+/* All Position */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ecf0f1;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 15px;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  background-color: #58af9b;
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* First Page - Creat Account */
+/* BLUE BOX */
+.first-content {
+  display: flex;
+}
+
+.first-column {
+  text-align: center;
+  flex: 1 0 auto;
+  z-index: 10;
+}
+
+/* Text Blue Box */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+  }
+  
+  .title-welcome {
+  color: #fff;
+  }
+  
+  .description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .description-primary {
+    color: #fff;
+    }
+
+/* WHITE BOX */
+  .second-column {
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-social-media {
+  display: flex;
+  list-style-type: none;
+}
+
+.item-social-media {
+  margin: 1rem;
+}
+
+.item-social-media {
+  border: 1px solid #95a5a6;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color:#95a5a6;
+}
+
+.item-social-media:hover  {
+  background-image: linear-gradient(to bottom, #58af9b, #66CDAA 120%);
+  border: none;
+  color: #fff;
+}
+
+/* Text White Box */
+.title-second {
+  color: #58af9b;
+}
+
+.description-second {
+  color: #58af9b;
+}
+
+/* Form White Box*/
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.form input {
+  height: 45px;
+  border: none;
+  background-color: #ecf0f1;
+  width: 100%;
+}
+
+.label-input {
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.icon-modify {
+  color: #7f8c8d;
+  padding: 0 5px;
+}
+
+/* All Button - First Page */
+.btn {
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  padding: 15px 50px;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: center;
+  border-width: 0;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #58af9b;
+}
+.btn-second {
+  background-image: linear-gradient(to bottom, #58af9b, #66CDAA 120%);
+  border: none;
+}
+
+.btn-second:hover {
+  background-image: linear-gradient(to bottom, #66CDAA, #58af9b 120%);
+  border: none;
+  color: #fff;
+
+}
+
+/* Second Page - Login */
+.second-content {
+  position: absolute;
+  display: none;
+}
