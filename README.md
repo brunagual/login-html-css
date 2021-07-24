@@ -18,13 +18,6 @@ Os ícones das Redes Sociais você pode encontrar no site: https://fontawesome.c
 - <code><img heigth="30" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></code>
 
 ***
-### :ballot_box_with_check: Funcionalidades 
-- [x] Cadastro do usuário <br>
-- [x] Acesso do usuário <br>
-- [x] Recuperação de senha  <br>
-- [x] Acesso com as Redes Sociais
-
-***
 ### :arrow_forward: Executando a aplicação <br>
    
     # Clone o repositório
