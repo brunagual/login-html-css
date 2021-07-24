@@ -9,6 +9,7 @@
 Projeto realizado para práticar a construção de sites com HTML e CSS. <br>
 Este site representa uma página de login concomitantemente com uma página de cadastro que se sobrepõe através de *Animação CSS*, 
 com botões funcionais e formulários que possuem efeito *placeholder*. <br>
+Os ícones das Redes Sociais você pode encontrar no site: https://fontawesome.com/ <br>
 
 ***
 ### :hammer_and_wrench: Ferramentas Utilizadas <br>
