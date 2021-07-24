@@ -11,26 +11,20 @@ Este site representa uma página de login concomitantemente com uma página de c
 com botões funcionais e formulários que possuem efeito *placeholder*. <br>
 
 ***
-### :mag: About <br>
-Project carried out to practice building websites with HTML and CSS. <br>
-This site represents a login page concurrently with a registration page that overlaps through *CSS animation*,
-with functional buttons and forms that have *placeholder* effect. <br>
-
-***
-### :hammer_and_wrench: Ferramentas Utilizadas | Tools Used <br>
+### :hammer_and_wrench: Ferramentas Utilizadas <br>
 - <code><img height="25" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></code>
 - <code><img heigth="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></code>
 - <code><img heigth="30" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></code>
 
 ***
-### :ballot_box_with_check: Funcionalidades | Features
-- [x] Cadastro do usuário - User registration <br>
-- [x] Acesso do usuário - User login <br>
-- [x] Recuperação de senha - Password recovery <br>
-- [x] Acesso com as Redes Sociais - Access with social media
+### :ballot_box_with_check: Funcionalidades 
+- [x] Cadastro do usuário <br>
+- [x] Acesso do usuário <br>
+- [x] Recuperação de senha  <br>
+- [x] Acesso com as Redes Sociais
 
 ***
-### :arrow_forward: Executando a aplicação | Using the application <br>
+### :arrow_forward: Executando a aplicação <br>
    
     # Clone o repositório
     $ git clone https://github.com/brunagual/login-html-css.git
